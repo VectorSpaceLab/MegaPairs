@@ -14,13 +14,13 @@
 <p align="center">
 </a>
     <a href="https://huggingface.co/datasets/JUNJIE99/MMRet-base">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-MMRet-base-yellow">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-MMRet_base-yellow">
     </a>
     <a href="https://huggingface.co/datasets/JUNJIE99/MMRet-large">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-MMRet-large-yellow">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-MMRet_large-yellow">
     </a>
     <a href="https://huggingface.co/datasets/JUNJIE99/MMRet-MLLM">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-MMRet-MLLM-yellow">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-MMRet_MLLM-yellow">
     </a>
 </p>
 

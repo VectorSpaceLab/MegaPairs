@@ -75,7 +75,7 @@ print(scores)
 
 
 ### 2. MMRet-MLLM Models
-Will be released soon.
+```Will be released soon.```
 
 ## Model Performance
 ### Zero-Shot Composed Image Retrieval

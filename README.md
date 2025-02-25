@@ -71,7 +71,7 @@ with torch.no_grad():
 print(scores)
 ```
 
-
+See the [demo](./retrieval_demo.ipynb) for a complete example of using MMRet for multimodel retrieval.
 
 
 ### 2. MMRet-MLLM Models

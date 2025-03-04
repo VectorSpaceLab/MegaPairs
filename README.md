@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://arxiv.org/abs/2412.14475">
-            <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2412.14475-B31B1B.svg">
+        <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2412.14475-B31B1B.svg">
     </a>
     <a href="https://github.com/VectorSpaceLab/MegaPairs">
         <img alt="Build" src="https://img.shields.io/badge/Github-Code-blue">
@@ -19,12 +19,17 @@
     <a href="https://huggingface.co/JUNJIE99/MMRet-large">
         <img alt="Build" src="https://img.shields.io/badge/🤗 Model-MMRet_large-yellow">
     </a>
-    <a href="https://huggingface.co/JUNJIE99/MMRet-MLLM">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-MMRet_MLLM-yellow">
+    <a href="https://huggingface.co/JUNJIE99/MMRet-MLLM-S1">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-MMRet_MLLM_S1-yellow">
+    </a>
+    <a href="https://huggingface.co/JUNJIE99/MMRet-MLLM-S2">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-MMRet_MLLM_S2-yellow">
     </a>
 </p>
 
 ## News
+```2024-3-4``` 🚀🚀 We have released the MMRet-MLLM models on Hugging Face: [MMRet-MLLM-S1](https://huggingface.co/JUNJIE99/MMRet-MLLM-S1) and [MMRet-MLLM-S2](https://huggingface.co/JUNJIE99/MMRet-MLLM-S2). **MMRet-MLLM-S1** is trained exclusively on our MegaPairs dataset, achieving outstanding performance in composed image retrieval, with an 8.1% improvement on the CIRCO benchmark (mAP@5) over the previous state-of-the-art. **MMRet-MLLM-S2** builds on MMRet-MLLM-S1 with an additional epoch of fine-tuning on the MMEB benchmark training set, delivering enhanced performance across a broader range of multimodal embedding tasks.
+
 ```2024-12-27``` 🚀🚀 MMRet-CLIP models are released in Huggingface: [MMRet-base](https://huggingface.co/JUNJIE99/MMRet-base) and [MMRet-large](https://huggingface.co/JUNJIE99/MMRet-large).
 
 ```2024-12-19``` 🎉🎉 Release our paper: [MegaPairs: Massive Data Synthesis For Universal Multimodal Retrieval](https://arxiv.org/pdf/2412.14475).
@@ -32,7 +37,7 @@
 ## Release Plan
 - [x] Paper
 - [x] MMRet-base and MMRet-large models
-- [ ] MMRet-MLLM model
+- [x] MMRet-MLLM model
 - [ ] MegaPairs Dataset
 - [ ] Evaluation code
 - [ ] Fine-tuning code

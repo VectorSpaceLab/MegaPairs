@@ -14,16 +14,16 @@
 <p align="center">
 </a>
     <a href="https://huggingface.co/BAAI/BGE-VL-base">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-BGE-VL_base-yellow">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-BGE_VL_base-yellow">
     </a>
     <a href="https://huggingface.co/BAAI/BGE-VL-large">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-BGE-VL_large-yellow">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-BGE_VL_large-yellow">
     </a>
     <a href="https://huggingface.co/BAAI/BGE-VL-MLLM-S1">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-BGE-VL_MLLM_S1-yellow">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-BGE_VL_MLLM_S1-yellow">
     </a>
     <a href="https://huggingface.co/BAAI/BGE-VL-MLLM-S2">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-BGE-VL_MLLM_S2-yellow">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-BGE_VL_MLLM_S2-yellow">
     </a>
 </p>
 

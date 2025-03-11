@@ -52,6 +52,7 @@ BGE-VL achieve state-of-the-art performance on four popular zero-shot composed i
 
 ### 1. BGE-VL-CLIP Models
 You can easily use BGE-VL-CLIP models based on ```transformers```
+> Our code works well on transformers==4.45.2, and we recommend using this version.
 ```python
 import torch
 from transformers import AutoModel
@@ -81,6 +82,7 @@ See the [demo](./retrieval_demo.ipynb) for a complete example of using BGE-VL fo
 
 ### 2. BGE-VL-MLLM Models
 
+> Our code works well on transformers==4.45.2, and we recommend using this version.
 
 ```python
 import torch

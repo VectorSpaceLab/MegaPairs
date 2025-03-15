@@ -26,7 +26,7 @@ class Args:
         metadata={'help': 'Model Name'}
     )
     image_dir: str = field(
-        default="/share/junjie/code/VISTA/junjie/data/data/multimodal/MBEIR/FashionIQ",
+        default="YOUR_FASHIONIQ_IMAGE_DIRECTORY",
         metadata={'help': 'Where are the images located on.'}
     )
     fp16: bool = field(
@@ -207,8 +207,8 @@ def main():
                         use_fp16=False,
                     )
 
-    eval_data = datasets.load_dataset('json', data_files="/share/junjie/code/VISTA2/240809languagefuse/MMRet_realease/MegaPairs/eval/data/fashioniq_shirt_query_val.jsonl", split='train')
-    image_corpus = datasets.load_dataset('json',  data_files="/share/junjie/code/VISTA2/240809languagefuse/MMRet_realease/MegaPairs/eval/data/fashioniq_shirt_corpus.jsonl", split='train')
+    eval_data = datasets.load_dataset('json', data_files="./eval/data/fashioniq_shirt_query_val.jsonl", split='train')
+    image_corpus = datasets.load_dataset('json',  data_files="./eval/data/fashioniq_shirt_corpus.jsonl", split='train')
     
     faiss_index = index(
         model=model, 
@@ -250,8 +250,8 @@ def main():
 
     
 
-    eval_data = datasets.load_dataset('json', data_files="/share/junjie/code/VISTA2/240809languagefuse/MMRet_realease/MegaPairs/eval/data/fashioniq_dress_query_val.jsonl", split='train')
-    image_corpus = datasets.load_dataset('json',  data_files="/share/junjie/code/VISTA2/240809languagefuse/MMRet_realease/MegaPairs/eval/data/fashioniq_dress_corpus.jsonl", split='train')
+    eval_data = datasets.load_dataset('json', data_files="./eval/data/fashioniq_dress_query_val.jsonl", split='train')
+    image_corpus = datasets.load_dataset('json',  data_files="./eval/data/fashioniq_dress_corpus.jsonl", split='train')
     
     faiss_index = index(
         model=model, 
@@ -290,8 +290,8 @@ def main():
     print(metrics_dress)
 
 
-    eval_data = datasets.load_dataset('json', data_files="/share/junjie/code/VISTA2/240809languagefuse/MMRet_realease/MegaPairs/eval/data/fashioniq_toptee_query_val.jsonl", split='train')
-    image_corpus = datasets.load_dataset('json',  data_files="/share/junjie/code/VISTA2/240809languagefuse/MMRet_realease/MegaPairs/eval/data/fashioniq_toptee_corpus.jsonl", split='train')
+    eval_data = datasets.load_dataset('json', data_files="./eval/data/fashioniq_toptee_query_val.jsonl", split='train')
+    image_corpus = datasets.load_dataset('json',  data_files="./eval/data/fashioniq_toptee_corpus.jsonl", split='train')
     
     
     faiss_index = index(

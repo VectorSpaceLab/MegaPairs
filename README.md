@@ -7,7 +7,7 @@
     <a href="https://github.com/VectorSpaceLab/MegaPairs">
         <img alt="Build" src="https://img.shields.io/badge/Github-Code-blue">
     </a>
-    <a href="https://huggingface.co/datasets/BAAI/MegaPairs">
+    <a href="https://huggingface.co/datasets/JUNJIE99/MegaPairs">
         <img alt="Build" src="https://img.shields.io/badge/🤗 Datasets-MegaPairs-yellow">
 </p>
 

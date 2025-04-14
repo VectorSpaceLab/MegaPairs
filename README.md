@@ -34,6 +34,8 @@
 
 ```2025-4-2``` 🌟🌟 BGE-VL models are also available on [WiseModel](https://www.wisemodel.cn/models/JUNJIE99/BGE-VL-large).
 
+```2025-3-6``` 📰📰 Thank you to [SyncedTech (机器之心)](https://mp.weixin.qq.com/s/iw9BmSDwv6NYtD7pkC5kxQ), [QbitAI (量子位)](https://mp.weixin.qq.com/s/r_zWAZ0ir5732OfIrEsDtg), and [AI Era (新智元)](https://mp.weixin.qq.com/s/FZwKYJnx_78YDAEreu1edg) for reporting on our work!
+
 ```2025-3-4``` 🚀🚀 We have released the BGE-VL-MLLM models on Huggingface: [BGE-VL-MLLM-S1](https://huggingface.co/BAAI/BGE-VL-MLLM-S1) and [BGE-VL-MLLM-S2](https://huggingface.co/BAAI/BGE-VL-MLLM-S2). **BGE-VL-MLLM-S1** is trained exclusively on our MegaPairs dataset, achieving outstanding performance in composed image retrieval, with an 8.1% improvement on the CIRCO benchmark (mAP@5) over the previous state-of-the-art. **BGE-VL-MLLM-S2** builds on BGE-VL-MLLM-S1 with an additional epoch of fine-tuning on the MMEB benchmark training set, delivering enhanced performance across a broader range of multimodal embedding tasks.
 
 ```2024-12-27``` 🚀🚀 BGE-VL-CLIP models are released on Huggingface: [BGE-VL-base](https://huggingface.co/BAAI/BGE-VL-base) and [BGE-VL-large](https://huggingface.co/BAAI/BGE-VL-large).

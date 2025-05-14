@@ -56,6 +56,8 @@ In this work, we introduce **MegaPairs**, a novel data synthesis method that lev
 
 BGE-VL achieve state-of-the-art performance on four popular zero-shot composed image retrieval benchmarks and the massive multimodal embedding benchmark (MMEB). Extensive experiments demonstrate the ***efficiency, scalability, and generalization*** features of MegaPairs. Please refer to our [paper](https://arxiv.org/abs/2412.14475) for more details.
 
+
+
 ## Model Usage
 
 ### 1. BGE-VL-CLIP Models
@@ -128,6 +130,30 @@ with torch.no_grad():
 print(scores)
 ```
 
+## MegaPairs Dataset Card
+
+We are excited to release the **MegaPairs** dataset on [Hugging Face](https://huggingface.co/datasets/JUNJIE99/MegaPairs), which contains over **26 million training samples** tailored for composed image retrieval and universal multimodal retrieval tasks. 
+
+### Dataset Structure
+
+Each entry in the dataset consists of the following fields:
+
+- **q_img**: `str`  
+  The file path to the query image.
+
+- **q_text**: `list`  
+  A list of textual query statements related to the query image. During training, you can randomly select one statement from this list.
+
+- **t_img**: `str`  
+  The file path to the target image, which serves as the **positive example** for the combination of `q_img` and `q_text`.
+
+- **hns**: `list`  
+  A list of file paths for **hard negative sample** images. These are challenging distractors that are visually or semantically similar to the query. It is recommended to include at least one hard negative sample during training, with **`hns[0]` (the query image itself)** being a mandatory choice. In our experiments, we used **four hard negative samples** per query.
+
+
+### Usage
+
+The dataset is available for download and exploration on [Hugging Face](https://huggingface.co/datasets/JUNJIE99/MegaPairs). We encourage researchers and practitioners to leverage this dataset to advance multimodal retrieval research and systems.
 
 ## Model Performance
 ### Zero-Shot Composed Image Retrieval

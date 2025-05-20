@@ -28,6 +28,17 @@
 </p>
 <p align="center">
 
+<p align="center">
+</a>
+    <a href="https://huggingface.co/BAAI/BGE-VL-v1.5-zs">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-BGE_VL_v1_5_zs-yellow">
+    </a>
+    <a href="https://huggingface.co/BAAI/BGE-VL-v1.5-mmeb">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-BGE_VL_v1_5_mmeb-yellow">
+    </a>
+</p>
+<p align="center">
+
 
 ## News
 ```2025-4-13``` 🎉🎉 We have uploaded our MegaPairs dataset to [🤗Hugging Face](https://huggingface.co/datasets/JUNJIE99/MegaPairs), which contains over 26 million multimodal retrieval instruction-tuning triplets. To reduce upload time and enhance data accessibility, we resized all images to a resolution of 512 × 512 instead of using their original size. This adjustment has minimal impact on performance, considering that most vision-language models (e.g., CLIP) use even smaller input image sizes. [Dataset Card](https://github.com/VectorSpaceLab/MegaPairs?tab=readme-ov-file#megapairs-dataset-card)

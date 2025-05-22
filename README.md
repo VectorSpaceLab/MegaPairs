@@ -41,6 +41,10 @@
 
 
 ## News
+```2025-5-20``` 🚀🚀 We are excited to announce the release of **BGE-VL-v1.5**! BGE-VL-v1.5 is developed based on the BGE-VL-MLLM-S1 model and further trained on additional multi-task multimodal data synthesized and collected by our team. Our [zero-shot model](https://huggingface.co/BAAI/BGE-VL-v1.5-zs) achieves state-of-the-art zero-shot performance on the [MMEB leaderboard](https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard). Furthermore, [the fine-tuned version](https://huggingface.co/BAAI/BGE-VL-v1.5-mmeb) achieves the best results among all methods using the same base model (Llava-1.6-7B), reaching a new high in retrieval tasks with a Recall@1 of 72.2%.
+
+```2025-5-16``` 🎉🎉 We are pleased to share that our works, **MegaPairs** ([repo](https://github.com/VectorSpaceLab/MegaPairs), [paper](https://arxiv.org/abs/2412.14475)) and **Vis-IR** ([repo](https://github.com/VectorSpaceLab/Vis-IR), [paper](https://arxiv.org/pdf/2502.11431)), have been accepted to the ACL 2025 Main Conference!
+
 ```2025-4-13``` 🎉🎉 We have uploaded our MegaPairs dataset to [🤗Hugging Face](https://huggingface.co/datasets/JUNJIE99/MegaPairs), which contains over 26 million multimodal retrieval instruction-tuning triplets. To reduce upload time and enhance data accessibility, we resized all images to a resolution of 512 × 512 instead of using their original size. This adjustment has minimal impact on performance, considering that most vision-language models (e.g., CLIP) use even smaller input image sizes. [Dataset Card](https://github.com/VectorSpaceLab/MegaPairs?tab=readme-ov-file#megapairs-dataset-card)
 
 ```2025-4-2``` 🌟🌟 BGE-VL models are also available on [WiseModel](https://www.wisemodel.cn/models/JUNJIE99/BGE-VL-large).
